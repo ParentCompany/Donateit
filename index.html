@@ -1100,6 +1100,7 @@
 											<span class="form-group">
 												<textarea cols="40" name="Message: " rows="5" class="form-control" placeholder="Message"></textarea>
 											</span>
+											<input type="hidden" name="*honeypot" />
 										</p>
 										<p class="col-sm-12">
 											<button type="submit" class="form-control">Send Message</button>
@@ -1115,11 +1116,7 @@
 
 		</div>
 		<!-- End #content -->
-		
-		<script>function target_popup(form) {
-			window.open('', 'formpopup', 'width=400,height=400,resizeable,scrollbars');
-			form.target = 'formpopup';
-		}</script>
+	
 
 		<!-- Start Main Footer -->
 		<footer class="main-footer main-footer--style-elegant">
