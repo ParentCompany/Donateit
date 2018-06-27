@@ -1079,30 +1079,30 @@
 								<div class="subtitle text-uppercase">Charity and Business Form</div>
 							</header>
 							<div class="contact-form contact-line contact-elegant px-5">
-								<form class="rd-mailform" data-form-output="form-output-global" data-form-type="forms" method="post" action="bat/rd-mailform.php">
+								<form class="rd-mailform" action="https://www.enformed.io/635n6et5" method="POST" data-form-output="form-output-global">
 									<div class="row">
 										<p class="col-sm-12">
 											<span class="form-group">
-												<input type="text" class="form-control" placeholder="Charity or Business Name">
+												<input type="text" name="Charity or Business Name: " class="form-control" placeholder="Charity or Business Name">
 											</span>
 										</p>
 										<p class="col-sm-12">
 											<span class="form-group">
-												<input type="email" class="form-control" placeholder="Email">
+												<input type="email" name="Email Address: " class="form-control" placeholder="Email">
 											</span>
 										</p>
 										<p class="col-sm-12">
 											<span class="form-group">
-												<input type="text" class="form-control" placeholder="Subject (Charity Registration Request)">
+												<input type="text" name="Subject (Charity Registration Request): " class="form-control" placeholder="Subject (Charity Registration Request)">
 											</span>
 										</p>
 										<p class="col-sm-12">
 											<span class="form-group">
-												<textarea cols="40" rows="5" class="form-control" placeholder="Message"></textarea>
+												<textarea cols="40" name="Message: " rows="5" class="form-control" placeholder="Message"></textarea>
 											</span>
 										</p>
 										<p class="col-sm-12">
-											<button class="form-control">Send Message</button>
+											<button type="submit" class="form-control">Send Message</button>
 										</p>
 									</div>
 								</form>
@@ -1115,6 +1115,11 @@
 
 		</div>
 		<!-- End #content -->
+		
+		<script>function target_popup(form) {
+			window.open('', 'formpopup', 'width=400,height=400,resizeable,scrollbars');
+			form.target = 'formpopup';
+		}</script>
 
 		<!-- Start Main Footer -->
 		<footer class="main-footer main-footer--style-elegant">
