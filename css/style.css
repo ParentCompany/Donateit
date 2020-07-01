@@ -3374,6 +3374,12 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 
 .seo-work-progress .single-work-list:nth-child(3) .text-wrapper .icon-box {background: #01e9eb;}
 .seo-work-progress .single-work-list:nth-child(3) .text-wrapper .icon-box:before {background: #49fcfe;}
+
+.seo-work-progress .single-work-list:nth-child(4) .text-wrapper .icon-box {background: #a16fff;}
+.seo-work-progress .single-work-list:nth-child(4) .text-wrapper .icon-box:before {background: #bc99fd;}
+
+.seo-work-progress .single-work-list:nth-child(5) .text-wrapper .icon-box {background: #ff6464;}
+.seo-work-progress .single-work-list:nth-child(5) .text-wrapper .icon-box:before {background: #ff8888;}
 .seo-work-progress .single-work-list .text-wrapper .title {
   font-size: 48px;
   line-height: 60px;
