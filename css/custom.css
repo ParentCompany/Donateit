@@ -1,0 +1,20 @@
+.sass-testimonial-section .owl-theme .owl-nav [class*=owl-] {
+    color: white;
+    opacity: 1;
+}
+
+.portfo-footer form button:hover {
+    background: #fff;
+    box-shadow: none;
+    color: #FF3A46;
+    
+}
+
+.portfo-footer form button {
+
+    transition: all .3s ease-in-out;
+    background: #FF3A46;
+    color: #fff;
+    border: none;
+
+}
