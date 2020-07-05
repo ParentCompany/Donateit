@@ -5,11 +5,11 @@
     <desc>Created with sketchtool.</desc>
     <defs>
         <linearGradient x1="55.5946429%" y1="0.660796109%" x2="50%" y2="100%" id="linearGradient-1">
-            <stop stop-color="#C8C8C8" offset="0%"></stop>
-            <stop stop-color="#979797" offset="100%"></stop>
+            <stop stop-color="#a3f95d" offset="0%"></stop>
+            <stop stop-color="#0de49d" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.157226562">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
         <g id="01_Index" fill-rule="nonzero" stroke="url(#linearGradient-1)">
             <g id="Banner" transform="translate(-54.000000, -261.000000)">
                 <g id="Shape-2" transform="translate(0.000000, 260.000000)">

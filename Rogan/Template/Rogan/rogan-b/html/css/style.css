@@ -322,7 +322,7 @@ body {
 .theme-title-one .upper-title {
   font-size: 20px;
   text-transform: uppercase;
-  color: var(--text-light);
+  color: var(--p-green);
   letter-spacing: 1.5px;
 }
 .theme-title-one .upper-title.color-orange {color: var(--p-orange);}

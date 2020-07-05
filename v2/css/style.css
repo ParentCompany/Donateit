@@ -145,6 +145,8 @@
   --rose-gr-bg: linear-gradient( -90deg, rgb(255,182,139) 0%, rgb(255,96,139) 100%);
   --rose-gr-reverse: linear-gradient( -90deg, rgb(255,96,139) 0%, rgb(255,182,139) 100%);
   --p-green: #0de49d;
+  --green-gr-bg: linear-gradient(-90deg,  rgb(13,228,157)  0%, rgb(163,249,93) 100%);
+  --green-gr-reverse: linear-gradient(-90deg, rgb(163,249,93) 0%, rgb(13,228,157) 100%);
   --p-orange:#ff8618;
   --cyan: #1aceff;
   --redOne:#ff6262;
@@ -322,7 +324,7 @@ body {
 .theme-title-one .upper-title {
   font-size: 20px;
   text-transform: uppercase;
-  color: var(--text-light);
+  color: var(--p-green);
   letter-spacing: 1.5px;
 }
 .theme-title-one .upper-title.color-orange {color: var(--p-orange);}
@@ -388,11 +390,17 @@ body .theme-btn.radius3:before {border-radius: 3px;}
 /*SOlid Button One*/
 body .solid-button-one {
   color: #fff;
-  background: var(--p-green);
-  border:2px solid var(--p-green);
+  background: var(--green-gr-bg);
+  border:none;
+  line-height: 52px;
 }
-body .solid-button-one:before {background: #fff;}
-body .solid-button-one:hover {color: var(--p-green); }
+body .solid-button-one:before {
+  background: var(--green-gr-reverse); 
+  transform: scale(1);
+  opacity: 0;}
+body .solid-button-one:hover {color: #fff;}
+body .solid-button-one:hover::before {opacity: 1;}
+
 body .solid-button-one.button-rose {
   background: var(--rose-gr-bg);
   border:none;
@@ -414,8 +422,8 @@ body .solid-button-one.button-orange:before {background: #fff;}
 body .solid-button-one.button-orange:hover {color: var(--p-orange); }
 /*Line Button One*/
 body .line-button-one {color: var(--p-green);border:2px solid var(--p-green);}
-body .line-button-one:before {background:var(--p-green);}
-body .line-button-one:hover {color: #fff;}
+body .line-button-one:before {background: var(--green-gr-bg);}
+body .line-button-one:hover {color: #fff; border: none;}
 body .line-button-one.button-rose {color: var(--p-rose);border:2px solid var(--p-rose);}
 body .line-button-one.button-rose:before {background:var(--p-rose);}
 body .line-button-one.button-rose:hover {color: #fff;}
@@ -672,7 +680,7 @@ body .shadow-button-one:hover {background: var(--p-rose); color: #fff;}
 .rogan-hero-section {z-index: 9;}
 .rogan-hero-section .main-wrapper {z-index: 5;}
 .rogan-hero-section .banner-upper-heading {
-  color: var(--text-dark);
+  color: var(--p-green);
   font-size: 20px;
   text-transform: uppercase;
 }
@@ -1866,7 +1874,7 @@ footer.top-border {border-top:1px solid rgba(0,0,0,0.06);}
   margin: 100px 0;
 }
 .project-gallery-home-one .gallery-polar-state .img-holder img {border-radius: 3px;}
-.gallery-polar-state .img-holder {background: var(--rose-gr-bg);overflow: hidden;}
+.gallery-polar-state .img-holder {background: var(--green-gr-bg);overflow: hidden;}
 .gallery-polar-state.p-green .img-holder {background: var(--p-green);}
 
 .gallery-polar-state .img-holder img {width: 100%;transition: all 0.6s ease-in-out;}

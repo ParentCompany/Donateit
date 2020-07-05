@@ -660,7 +660,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   left:50%;
   transform: translate(-50% , -50%);
 }
-.theme-title-one.arch-title .upper-title {color: #aeaeae;}
+.theme-title-one.arch-title .upper-title {color: #0de49d;}
 .theme-title-two {
   position: relative;
   font-size: 144px;
