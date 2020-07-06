@@ -135,7 +135,7 @@
 /*------------- Global Prefix -------------------*/
 ::-webkit-scrollbar{ width: 5px; }
 ::-webkit-scrollbar-track { background: #fff;}
-::-webkit-scrollbar-thumb { background: var(--rose-gr-bg);border-radius: 30px;}
+::-webkit-scrollbar-thumb { background: var(--p-green);border-radius: 30px;}
 :root {
   --text-color: #8a919c;
   --text-light:#c0c0c9;
@@ -195,7 +195,7 @@ body {
 .ctn-preloader .animation-preloader .txt-loading {text-align: center;user-select: none;}
 .ctn-preloader .animation-preloader .txt-loading .letters-loading:before {
   animation: letters-loading 4s infinite;
-  color: var(--p-rose);
+  color: #98ffdd;
   content: attr(data-text-preloader);
   left: 0;
   opacity: 0;
@@ -258,7 +258,7 @@ body {
   display: none;
   cursor: pointer;
   border-radius: 3px;
-  background: var(--rose-gr-bg);
+  background: var(--p-green);
 }
 .scroll-top:after {
   position: absolute;
@@ -390,15 +390,14 @@ body .theme-btn.radius3:before {border-radius: 3px;}
 /*SOlid Button One*/
 body .solid-button-one {
   color: #fff;
-  background: var(--green-gr-bg);
-  border:none;
-  line-height: 52px;
+  background: var(--p-green);
+  border: var(--p-green);
 }
-body .solid-button-one:before {
-  background: var(--green-gr-reverse); 
-  transform: scale(1);
-  opacity: 0;}
-body .solid-button-one:hover {color: #fff;}
+body .solid-button-one:before {background: #fff;}
+body .solid-button-one:hover {
+  color: var(--p-green);
+  border: 2px solid var(--p-green);
+}
 body .solid-button-one:hover::before {opacity: 1;}
 
 body .solid-button-one.button-rose {
@@ -422,7 +421,7 @@ body .solid-button-one.button-orange:before {background: #fff;}
 body .solid-button-one.button-orange:hover {color: var(--p-orange); }
 /*Line Button One*/
 body .line-button-one {color: var(--p-green);border:2px solid var(--p-green);}
-body .line-button-one:before {background: var(--green-gr-bg);}
+body .line-button-one:before {background: var(--p-green);}
 body .line-button-one:hover {color: #fff; border: none;}
 body .line-button-one.button-rose {color: var(--p-rose);border:2px solid var(--p-rose);}
 body .line-button-one.button-rose:before {background:var(--p-rose);}

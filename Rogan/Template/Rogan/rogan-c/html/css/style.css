@@ -205,7 +205,7 @@
 }
 .ctn-preloader .animation-preloader .txt-loading .letters-loading:before {
   animation: letters-loading 4s infinite;
-  color: #ff3946;
+  color: #06df9e;
   content: attr(data-text-preloader);
   left: 0;
   opacity: 0;

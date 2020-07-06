@@ -193,7 +193,7 @@ body {
 .ctn-preloader .animation-preloader .txt-loading {text-align: center;user-select: none;}
 .ctn-preloader .animation-preloader .txt-loading .letters-loading:before {
   animation: letters-loading 4s infinite;
-  color: var(--p-rose);
+  color: var(--p-green);
   content: attr(data-text-preloader);
   left: 0;
   opacity: 0;
